@@ -1,0 +1,10 @@
+.HomeOffers {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-column-gap: 40px;
+  &__images {
+    > img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.Footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 40px;
+  box-sizing: border-box;
+  padding: 60px;
+  background-color: hsl(0, 0%, 13%);
+  color: #fff;
+}

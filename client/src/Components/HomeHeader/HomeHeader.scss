@@ -1,0 +1,19 @@
+.HomeHeader {
+  max-width: 100vw;
+  height: 100vh;
+  background: url(./../../Images/priroda.jpg) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+  &__text {
+    > h1 {
+      text-align: center;
+      color: #fff;
+    }
+    > p {
+      text-align: center;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.HomeFeatures {
+  > h2 {
+    text-align: center;
+  }
+  &__context {
+    display: flex;
+    justify-content: space-around;
+    > p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 40px;
+      > svg {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  }
+}
