@@ -1,0 +1,24 @@
+.Regulations {
+  margin: 120px 0;
+  > h1 {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  &__item {
+    margin-bottom: 40px;
+    > h2 {
+      margin-bottom: 20px;
+    }
+    > h3 {
+      margin: 20px 0 20px;
+    }
+    > p {
+      margin-bottom: 10px;
+      line-height: 25px;
+    }
+    > ol {
+      line-height: 25px;
+
+    }
+  }
+}
